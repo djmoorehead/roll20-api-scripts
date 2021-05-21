@@ -2235,7 +2235,7 @@ const Radar = (() => {
                         sendChat(scriptName, `/w "${who}" `+ graphicalOutput);
                     }
                     if (includeGM && !playerIsGM(msg.playerid) && outputGraph) {
-                        sendChat(scriptName, '/w gm ' + tableOutput);
+                        sendChat(scriptName, '/w gm ' + graphicalOutput);
                     }
                     
                     //Build final html output
